@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #eff3ff;
+  font-family: "Lato", sans-serif;
+}
+input {
+  width: auto;
+  height: 32px;
+  border: 1px solid #afafaf;
+  border-radius: 4px;
+}
+
+.container {
+  margin-left: 200px;
+  margin-top: 72px;
+}
+
+.auto-suggestion-container {
+  position: absolute;
+  display: none;
+  align-items: center;
+  border: 1px solid #afafaf;
+  width: 200px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background: #fff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.list-container {
+  padding-inline-start: 0;
+}
+
+.list-container-item {
+  list-style: none;
+  padding: 12px;
+}
